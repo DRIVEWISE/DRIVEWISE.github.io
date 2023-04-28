@@ -7,7 +7,6 @@ image_path: ../_images/_simulator/
 ---
 # Driving Simulator
 
-<!-- add image of the simulaor -->
 
-![Driving Simulator](../_images/_simulator/Simulator.jpg)
+<img src="../_images/_simulator/Simulator.jpg" alt="Simulator" width="100%">
 
