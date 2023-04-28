@@ -159,8 +159,7 @@ include:
   - _posts
   - _images
   - _people
-  - _images/_people
-  - _images/_simulator
+  - _simulator
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
