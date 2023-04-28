@@ -4,7 +4,7 @@ permalink: /people/
 header: People
 ---
 
-# Our people
+<!-- # Our people
 
 ## Head of the research group
 
@@ -35,4 +35,4 @@ His research interests include symbolic and numerical multi-body dynamics and op
 
 ## Past members
 
-### PhD. Giammarco Valenti
+### PhD. Giammarco Valenti -->
