@@ -2,8 +2,8 @@
 title: "People"
 layout: single
 permalink: /People/
-header: People
 image_path: ../_images/_people/
+classes: wide
 ---
 # Our research group
 
