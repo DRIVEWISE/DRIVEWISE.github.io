@@ -3,6 +3,7 @@ title: "People"
 permalink: /people/
 header: People
 ---
+# Our people
 
 <!-- # Our people
 
