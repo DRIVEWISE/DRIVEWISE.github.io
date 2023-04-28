@@ -1,6 +1,6 @@
 ---
 title: "People"
-permalink: /people/
+permalink: /People/
 header: People
 ---
 # Our people
