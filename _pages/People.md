@@ -5,13 +5,11 @@ header: People
 ---
 # Our people
 
-<!-- # Our people
-
 ## Head of the research group
 
 ### Professor Francesco Biral
 
-<img src="/_images/_people/prof_biral_resized.jpg" alt="Francesco Biral" width="50%">
+<!-- <img src="/_images/_people/prof_biral_resized.jpg" alt="Francesco Biral" width="50%"> -->
 
 **Job Title:** Professor
 
@@ -20,20 +18,59 @@ His research interests include symbolic and numerical multi-body dynamics and op
 
 ### Professor Enrico Bertolazzi
 
-## Active menmbers
+<!-- <img src="/_images/_people/prof_bertolazzi_resized.jpg" alt="Enrico Bertolazzi" width="50%"> -->
+
+**Job Title:** Professor
+
+**Bio:** Enrico Bertolazzi ...
+
+## Active members
 
 ### Mattia Piazza
 
+<!-- <img src="/_images/_people/mattia_piazza_resized.jpg" alt="Mattia Piazza" width="50%"> -->
+
+**Job Title:** PhD Student
+
+**Bio:** Mattia Piazza is a doctoral researcher at the University of Trento (Italy), where he received his master’s degree in Mechatronics Engineering and a research fellowship grant to work on minimum-time optimal control problems for racing vehicles. He is currently working on autonomous driving and optimization for racing and urban scenarios.
+
 ### Sebastiano Taddei
+
+<!-- <img src="/_images/_people/sebastiano_taddei_resized.jpg" alt="Sebastiano Taddei" width="50%"> -->
+
+**Job Title:** PhD Student
+
+**Bio:** Sebastiano Taddei received a Bachelor's Degree in Industrial Engineering from the University of Trento in 2020, and a double Master's Degree in Mechatronics Engineering (University of Trento) and ICT Innovation (Aalto University) in 2022. He is currently a Ph.D. student of the DAUSY national Ph.D. program at the University of Trento coordinated by the Politecnico di Bari. His research interests lie in automated driving for both urban and racing applications, as well as vehicle dynamics and modeling.
 
 ### Matteo Larcher
 
+<!-- <img src="/_images/_people/matteo_larcher_resized.jpg" alt="Matteo Larcher" width="50%"> -->
+
+**Job Title:** PhD Student
+
+**Bio:** Matteo Larcher received a master’s degree in mechatronics engineering at the University of Trento, where he is currently working on vehicle dynamic models for real-time applications as part of his PhD research program. His research interests are multi-body modeling of mechanical systems and hardware-in-the-loop simulations.
+
 ### Mattia Piccinini
+
+<!-- <img src="/_images/_people/mattia_piccinini_resized.jpg" alt="Mattia Piccinini" width="50%"> -->
+
+**Job Title:** PhD Student
+
+**Bio:** Mattia Piccinini received a B.Sc. in industrial engineering and an M.Sc. in mechatronics engineering, both cum laude and both from the University of Trento, Italy, respectively in 2017 and 2019. He is currently a Ph.D. student at the University of Trento, Italy. From March to June 2022, he was a visiting Ph.D. student at the Universität der Bundeswehr, Munich, Germany. His research focuses on motion planning, control and state estimation methods for racing autonomous vehicles.
 
 ### Davide Stocco
 
+<!-- <img src="/_images/_people/davide_stocco_resized.jpg" alt="Davide Stocco" width="50%"> -->
+
+**Job Title:** PhD Student
+
+**Bio:** Davide Stocco ...
+
 ### PhD. Edoardo Pagot
 
-## Past members
+<!-- <img src="/_images/_people/edoardo_pagot_resized.jpg" alt="Edoardo Pagot" width="50%"> -->
 
-### PhD. Giammarco Valenti -->
+**Job Title:** PhD, Researcher
+
+**Bio:** Edoardo Pagot ...
+
