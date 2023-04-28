@@ -9,7 +9,7 @@ header: People
 
 ### Professor Francesco Biral
 
-<!-- <img src="/_images/_people/prof_biral_resized.jpg" alt="Francesco Biral" width="50%"> -->
+<img src="/_images/_people/prof_biral_resized.jpg" alt="Francesco Biral" width="50%">
 
 **Job Title:** Professor
 
@@ -28,7 +28,7 @@ His research interests include symbolic and numerical multi-body dynamics and op
 
 ### Mattia Piazza
 
-<!-- <img src="/_images/_people/mattia_piazza_resized.jpg" alt="Mattia Piazza" width="50%"> -->
+<img src="/_images/_people/MattiaPiazza.jpeg" alt="Mattia Piazza" width="50%">
 
 **Job Title:** PhD Student
 
@@ -36,7 +36,7 @@ His research interests include symbolic and numerical multi-body dynamics and op
 
 ### Sebastiano Taddei
 
-<!-- <img src="/_images/_people/sebastiano_taddei_resized.jpg" alt="Sebastiano Taddei" width="50%"> -->
+<img src="/_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei" width="50%">
 
 **Job Title:** PhD Student
 
@@ -44,7 +44,7 @@ His research interests include symbolic and numerical multi-body dynamics and op
 
 ### Matteo Larcher
 
-<!-- <img src="/_images/_people/matteo_larcher_resized.jpg" alt="Matteo Larcher" width="50%"> -->
+<img src="/_images/_people/matteo_larcher.jpg" alt="Matteo Larcher" width="50%">
 
 **Job Title:** PhD Student
 
@@ -52,7 +52,7 @@ His research interests include symbolic and numerical multi-body dynamics and op
 
 ### Mattia Piccinini
 
-<!-- <img src="/_images/_people/mattia_piccinini_resized.jpg" alt="Mattia Piccinini" width="50%"> -->
+<img src="/_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini" width="50%">
 
 **Job Title:** PhD Student
 
