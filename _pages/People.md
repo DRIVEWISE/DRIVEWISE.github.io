@@ -1,8 +1,9 @@
 ---
 title: "People"
+layout: single
 permalink: /People/
 header: People
-image_path: /_images/
+image_path: ../_images/_people/
 ---
 # Our research group
 

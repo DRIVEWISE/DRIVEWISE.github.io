@@ -158,6 +158,8 @@ include:
   - _pages
   - _posts
   - _images
+  - _people
+  - _images/_people
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
