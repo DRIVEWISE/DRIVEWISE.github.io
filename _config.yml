@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DRIVEWISE Autonomous Driving Research Group"
+title                    : "DRIVEWISE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "DRIVEWISE"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mattia Piazza"
+  name             : "DRIVEWISE"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Researcher at University of Trento"
+  bio              : "Autonomous Driving Research Group at University of Trento"
   location         : "Trento (TN), Italy"
   email            :
   links:
