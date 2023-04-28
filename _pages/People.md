@@ -2,6 +2,7 @@
 title: "People"
 permalink: /People/
 header: People
+image_path: /_images/
 ---
 # Our research group
 
