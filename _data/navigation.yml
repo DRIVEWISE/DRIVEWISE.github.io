@@ -1,12 +1,10 @@
 # main links
 main:
+  - title: "About"
+    url: /About/
   - title: "People"
     url: /People/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Research"
+    url: /Research/
+  - title: "Driving Simulator"
+    url: /DrivingSimulator/

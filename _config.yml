@@ -160,6 +160,7 @@ include:
   - _images
   - _people
   - _images/_people
+  - _images/_simulator
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
