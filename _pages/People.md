@@ -5,9 +5,16 @@ permalink: /People/
 image_path: ../_images/_people/
 classes: wide
 ---
-# Our research group
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<style>
+div.biodata {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+</style>
+
+<div class = "biodata">
     <img src="../_images/_people/prof_biral_resized.jpg" alt="Francesco Biral" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Francesco Biral</h2>
@@ -16,7 +23,7 @@ classes: wide
     </div>
 </div>
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/enrico_bertolazzi.JPG" alt="Enrico Bertolazzi" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Enrico Bertolazzi</h2>
@@ -28,7 +35,7 @@ classes: wide
 ## Active members
 
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/MattiaPiazza.jpeg" alt="Mattia Piazza" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Mattia Piazza</h2>
@@ -39,7 +46,7 @@ classes: wide
 
 
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Sebastiano Taddei</h2>
@@ -50,7 +57,7 @@ classes: wide
 
 
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Matteo Larcher</h2>
@@ -59,9 +66,7 @@ classes: wide
     </div>
 </div>
 
-
-
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Mattia Piccinini</h2>
@@ -70,9 +75,7 @@ classes: wide
     </div>
 </div>
 
->
-
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/davide_stocco.JPG" alt="Davide Stocco" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Davide Stocco</h2>
@@ -81,7 +84,7 @@ classes: wide
     </div>
 </div>
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div class = "biodata">
     <img src="../_images/_people/edoardo_pagot.JPG" alt="Edoardo Pagot" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Edoardo Pagot</h2>
