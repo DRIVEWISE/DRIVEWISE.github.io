@@ -4,6 +4,7 @@ layout: single
 permalink: /Publications/
 image_path: ../_images/_img_papers/
 classes: wide
+toc: true
 ---
 
 # Journal Papers
