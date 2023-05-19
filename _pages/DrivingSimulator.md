@@ -5,8 +5,7 @@ permalink: /DrivingSimulator/
 classes: wide
 image_path: ../_images/_simulator/
 ---
-# Driving Simulator
 
 
-<img src="../_images/_simulator/Simulator.jpg" alt="Simulator" width="100%">
+<img src="../_images/_simulator/Simulator.jpg" alt="Driving simulator" width="100%">
 

@@ -4,11 +4,29 @@ layout: single
 permalink: /Research/
 classes: wide
 ---
-# Research
 
-# Publications
+Our team is currently working on the following research topics:
 
-## Journals
+## Autonomous Driving
 
-## Conferences
+### Urban scenarios
+
+### Racing scenarios
+
+## Vehicle Dynamics
+
+### Vehicle modeling
+
+### Vehicle control
+
+## Driving Simulator
+
+## Optimization
+
+### Optimal control
+
+### Optimal trajectory planning
+
+## Symbolic and numerical methods
+
 
