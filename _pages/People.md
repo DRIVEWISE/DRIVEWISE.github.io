@@ -40,7 +40,7 @@ div.biodata {
     <div>
       <h2>Mattia Piazza</h2>
       <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> Francesco Biral Mattia Piazza is a doctoral researcher at the University of Trento (Italy), where he received his master’s degree in Mechatronics Engineering and a research fellowship grant to work on minimum-time optimal control problems for racing vehicles. He is currently working on autonomous driving and optimization for racing and urban scenarios.</p>
+      <p><strong>Bio:</strong> FMattia Piazza is a doctoral researcher at the University of Trento (Italy), where he received his master’s degree in Mechatronics Engineering and a research fellowship grant to work on minimum-time optimal control problems for racing vehicles. He is currently working on autonomous driving and optimization for racing and urban scenarios.</p>
     </div>
 </div>
 

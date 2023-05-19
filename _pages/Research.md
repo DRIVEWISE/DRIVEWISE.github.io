@@ -6,7 +6,6 @@ classes: wide
 ---
 # Research
 
-
 # Publications
 
 ## Journals

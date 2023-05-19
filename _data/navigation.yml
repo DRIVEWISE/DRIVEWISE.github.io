@@ -6,5 +6,7 @@ main:
     url: /People/
   - title: "Research"
     url: /Research/
+  - title: "Publications"
+    url: /Publications/
   - title: "Driving Simulator"
     url: /DrivingSimulator/
