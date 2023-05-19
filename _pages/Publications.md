@@ -54,6 +54,8 @@ Video explaining the methods and results of the paper:
 
 <https://www.youtube.com/watch?v=h5eW01xXWaw>
 
+<iframe width="1239" height="697" src="https://www.youtube.com/embed/h5eW01xXWaw" title="A predictive-neural framework for on-line time-optimal motion planning with black-box vehicle models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### Publication Details
 
 **Journal**: Vehicle System Dynamics
@@ -86,6 +88,8 @@ Video explaining the methods and results of the paper:
 
 <https://www.youtube.com/watch?v=HADLEr5eTj0>
 
+<iframe width="1239" height="697" src="https://www.youtube.com/embed/HADLEr5eTj0" title="Real time optimal control of an autonomous RC car with minimum-time maneuvers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### Publication Details
 
 **Conference**: 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
@@ -116,6 +120,15 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022
 **Date**: October 2022
 
 **PDF**: <https://obj.umiacs.umd.edu/badue-accepted/8.pdf>
+
+
+#### Video 
+
+Video explaining the methods and results of the paper:
+
+<https://www.youtube.com/watch?v=U2mRTzmFj9w>
+
+<iframe width="1239" height="697" src="https://www.youtube.com/embed/U2mRTzmFj9w" title="Real-time Planning and Tracking of Complex Parking Maneuvers with Indirect Optimal Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
