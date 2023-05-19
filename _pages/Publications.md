@@ -2,6 +2,7 @@
 title: "Publications"
 layout: single
 permalink: /Publications/
+image_path: ../_images/_img_papers/
 classes: wide
 ---
 
