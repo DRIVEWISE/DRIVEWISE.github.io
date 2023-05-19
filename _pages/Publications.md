@@ -24,6 +24,8 @@ Video explaining the methods and results of the paper:
 
 <https://www.youtube.com/watch?v=xQ_T96IjGP8>
 
+<iframe width="1239" height="697" src="https://www.youtube.com/embed/xQ_T96IjGP8" title="A Physics-Driven Artificial Agent for Online Time-Optimal VehicleMotion Planning and Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### Publication Details
 
 **Journal**: IEEE Access
