@@ -76,7 +76,7 @@ div.biodata {
 </div>
 
 <div class = "biodata">
-    <img src="../_images/_people/davide_stocco.JPG" alt="Davide Stocco" width="20%" style="margin-right: 20px;">
+    <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco" width="20%" style="margin-right: 20px;">
     <div>
       <h2>Davide Stocco</h2>
       <p><strong>Job Title:</strong> PhD Student</p>
