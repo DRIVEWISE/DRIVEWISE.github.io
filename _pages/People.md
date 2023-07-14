@@ -275,7 +275,7 @@ classes: wide
         </div>
       </a>
       <br>
-      <a href="/People/SebastianoTaddei"> <span>Matteo Larcher</span> </a>
+      <a href="/People/MatteoLarcher"> <span>Matteo Larcher</span> </a>
       <br>
       <span>PhD Student</span>
     </div>
@@ -286,7 +286,7 @@ classes: wide
         </div>
       </a>
       <br>
-      <a href="/People/SebastianoTaddei"> <span>Mattia Piccinini</span> </a>
+      <a href="/People/MattiaPiccinini"> <span>Mattia Piccinini</span> </a>
       <br>
       <span>PhD Student</span>
     </div>
