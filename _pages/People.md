@@ -20,8 +20,8 @@ classes: wide
   }
 
   .member-container .member .image-container {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -44,6 +44,39 @@ classes: wide
   }
 
   .member-container .member .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .member-container .member .image-container2 {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .member-container .member .image-container2:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform: translateY(-50%);
+  }
+
+  .member-container .member .image-container2 img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -105,7 +138,7 @@ classes: wide
    <h2>PhD students and junior members</h2>
   <div class="member-container">
     <div class="member">
-      <div class="image-container">
+      <div class="image-container2">
         <img src="../_images/_people/edoardo_pagot.JPG" alt="Edoardo Pagot">
       </div>
       <br>
@@ -114,7 +147,7 @@ classes: wide
       <span>Research fellow</span>
     </div>
     <div class="member">
-      <div class="image-container">
+      <div class="image-container2">
         <img src="../_images/_people/alice_plebe.jpg" alt="Alice Plebe">
       </div>
       <br>
@@ -124,7 +157,7 @@ classes: wide
     </div>
     <div class="member">
       <a href="/People/MattiaPiazza">
-        <div class="image-container">
+        <div class="image-container2">
           <img src="../_images/_people/MattiaPiazza.jpeg" alt="Mattia Piazza">
         </div>
       </a>
@@ -134,16 +167,18 @@ classes: wide
       <span>PhD Student</span>
     </div>
     <div class="member">
-      <div class="image-container">
-        <img src="../_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei">
-      </div>
+      <a href="/People/SebastianoTaddei">
+        <div class="image-container2">
+          <img src="../_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei">
+        </div>
+      </a>
       <br>
-      <span>Sebastiano Taddei</span>
+      <a href="/People/SebastianoTaddei"> <span>Sebastiano Taddei</span> </a>
       <br>
       <span>PhD Student</span>
     </div>
     <div class="member">
-      <div class="image-container">
+      <div class="image-container2">
         <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher">
       </div>
       <br>
@@ -152,7 +187,7 @@ classes: wide
       <span>PhD Student</span>
     </div>
     <div class="member">
-      <div class="image-container">
+      <div class="image-container2">
         <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini">
       </div>
       <br>
@@ -161,7 +196,7 @@ classes: wide
       <span>PhD Student</span>
     </div>
     <div class="member">
-      <div class="image-container">
+      <div class="image-container2">
         <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco">
       </div>
       <br>

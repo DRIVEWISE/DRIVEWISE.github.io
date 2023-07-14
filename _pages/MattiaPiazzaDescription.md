@@ -15,7 +15,7 @@ div.biodata {
 
 .biodata img {
   object-fit: cover;
-  border-radius: 10%;
+  border-radius: 2%;
 }
 </style>
 
