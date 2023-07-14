@@ -6,92 +6,169 @@ image_path: ../_images/_people/
 classes: wide
 ---
 
+
 <style>
-div.biodata {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  .member-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .member-container .member {
+    text-align: center;
+    margin: 5px;
+  }
+
+  .member-container .member .image-container {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .member-container .member .image-container:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform: translateY(-50%);
+  }
+
+  .member-container .member .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top center;
+    position: relative;
+    z-index: 1;
+  }
 </style>
 
-<div class = "biodata">
-    <img src="../_images/_people/prof_biral_resized.jpg" alt="Francesco Biral" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Francesco Biral</h2>
-      <p><strong>Job Title:</strong> Professor</p>
-      <p><strong>Bio:</strong> Francesco Biral received the master’s degree in mechanical engineering from the University of Padova, Italy, and the Ph.D. degree in mechanism and machine theory from the University of Brescia, Italy, in 2000 for his work on minimum lap time of racing vehicles with the use of optimal control. He is currently an Associate Professor with the Department of Industrial Engineering at the University of Trento. His research interests include symbolic and numerical multi-body dynamics and optimization, constrained optimal control, mainly in the field of vehicle dynamics with special focus on intelligent vehicles and optimal maneuver for racing vehicles. He has 15 years experience in the development and validation of ADAS and AD functions, both for cars and PTWs, gained in several European and industrial funded research projects.</p>
+  <h2>Professor ans senior members</h2>
+  <div class="member-container">
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/mauro_da_lio.jpg" alt="Mauro Da Lio">
+      </div>
+      <br>
+      <span>Mauro Da Lio</span>
+      <br>
+      <span>Full Professor</span>
     </div>
-</div>
-
-<div class = "biodata">
-    <img src="../_images/_people/enrico_bertolazzi.JPG" alt="Enrico Bertolazzi" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Enrico Bertolazzi</h2>
-      <p><strong>Job Title:</strong> Professor</p>
-      <p><strong>Bio:</strong> Enrico Bertolazzi ...</p>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/enrico_bertolazzi.jpg" alt="Enrico Bertolazzi">
+      </div>
+      <br>
+      <span>Enrico Bertolazzi</span>
+      <br>
+      <span>Associate Professor</span>
     </div>
-</div>
-
-## Active members
-
-
-<div class = "biodata">
-    <img src="../_images/_people/MattiaPiazza.jpeg" alt="Mattia Piazza" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Mattia Piazza</h2>
-      <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> Mattia Piazza is a doctoral researcher at the University of Trento (Italy), where he received his master’s degree in Mechatronics Engineering and a research fellowship grant to work on minimum-time optimal control problems for racing vehicles. He is currently working on autonomous driving and optimization for racing and urban scenarios.</p>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/francesco_biral.jpg" alt="Francesco Biral">
+      </div>
+      <br>
+      <span>Francesco Biral</span>
+      <br>
+      <span>Associate Professor</span>
     </div>
-</div>
-
-
-
-<div class = "biodata">
-    <img src="../_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Sebastiano Taddei</h2>
-      <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> Sebastiano Taddei received a Bachelor's Degree in Industrial Engineering from the University of Trento in 2020, and a double Master's Degree in Mechatronics Engineering (University of Trento) and ICT Innovation (Aalto University) in 2022. He is currently a Ph.D. student of the DAUSY national Ph.D. program at the University of Trento coordinated by the Politecnico di Bari. His research interests lie in automated driving for both urban and racing applications, as well as vehicle dynamics and modeling.</p>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/gastone_rosati.jpg" alt="Gastone Pietro Rosati Papini">
+      </div>
+      <br>
+      <span>Gastone Pietro <br> Rosati Papini</span>
+      <br>
+      <span>Associate Professor</span>
     </div>
-</div>
-
-
-
-<div class = "biodata">
-    <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Matteo Larcher</h2>
-      <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> Matteo Larcher received a master’s degree in mechatronics engineering at the University of Trento, where he is currently working on vehicle dynamic models for real-time applications as part of his PhD research program. His research interests are multi-body modeling of mechanical systems and hardware-in-the-loop simulations.</p>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/antonello_cherubini.jpg" alt="Antonello Cherubini">
+      </div>
+      <br>
+      <span>Antonello Cherubini</span>
+      <br>
+      <span>RTdA</span>
     </div>
-</div>
+  </div>
 
-<div class = "biodata">
-    <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Mattia Piccinini</h2>
-      <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> Mattia Piccinini received a B.Sc. in industrial engineering and an M.Sc. in mechatronics engineering, both cum laude and both from the University of Trento, Italy, respectively in 2017 and 2019. He is currently a Ph.D. student at the University of Trento, Italy. From March to June 2022, he was a visiting Ph.D. student at the Universität der Bundeswehr, Munich, Germany. His research focuses on motion planning, control and state estimation methods for racing autonomous vehicles.</p>
+   <h2>PhD students and junior members</h2>
+  <div class="member-container">
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/edoardo_pagot.JPG" alt="Edoardo Pagot">
+      </div>
+      <br>
+      <span>Edoardo Pagot</span>
+      <br>
+      <span>Research fellow</span>
     </div>
-</div>
-
-<div class = "biodata">
-    <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Davide Stocco</h2>
-      <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> Davide Stocco ...</p>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/alice_plebe.jpg" alt="Alice Plebe">
+      </div>
+      <br>
+      <span>Alice Plebe</span>
+      <br>
+      <span>Post-doc</span>
     </div>
-</div>
-
-<div class = "biodata">
-    <img src="../_images/_people/edoardo_pagot.JPG" alt="Edoardo Pagot" width="20%" style="margin-right: 20px;">
-    <div>
-      <h2>Edoardo Pagot</h2>
-      <p><strong>Job Title:</strong> PhD, Researcher</p>
-      <p><strong>Bio:</strong> Edoardo Pagot ...</p>
+    <div class="member">
+      <a href="/People/MattiaPiazza">
+        <div class="image-container">
+          <img src="../_images/_people/MattiaPiazza.jpeg" alt="Mattia Piazza">
+        </div>
+      </a>
+      <br>
+      <a href="/People/MattiaPiazza"> <span>Mattia Piazza</span> </a>
+      <br>
+      <span>PhD Student</span>
     </div>
-</div>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei">
+      </div>
+      <br>
+      <span>Sebastiano Taddei</span>
+      <br>
+      <span>PhD Student</span>
+    </div>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher">
+      </div>
+      <br>
+      <span>Matteo Larcher</span>
+      <br>
+      <span>PhD Student</span>
+    </div>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini">
+      </div>
+      <br>
+      <span>Mattia Piccinini</span>
+      <br>
+      <span>PhD Student</span>
+    </div>
+    <div class="member">
+      <div class="image-container">
+        <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco">
+      </div>
+      <br>
+      <span>Davide Stocco</span>
+      <br>
+      <span>PhD Student</span>
+    </div>
+  </div>
 
-
-
+   <h2>Former members</h2>
