@@ -202,7 +202,7 @@ classes: wide
         </div>
       </a>
       <br>
-      <a href="/People/MattiaPiccinini"> <span>Francesco Biral</span> </a>
+      <a href="/People/FrancescoBiral"> <span>Francesco Biral</span> </a>
       <br>
       <span>Associate Professor</span>
     </div>
