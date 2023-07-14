@@ -6,6 +6,10 @@ image_path: ../_images/_people/
 classes: wide
 ---
 <style>
+  .inner {
+    max-width: 95%;
+  }
+
   .member-container {
     display: flex;
     flex-wrap: wrap;
@@ -192,11 +196,13 @@ classes: wide
       <span>Associate Professor</span>
     </div>
     <div class="member">
-      <div class="image-container">
-        <img src="../_images/_people/francesco_biral.jpg" alt="Francesco Biral">
-      </div>
+      <a href="/People/FrancescoBiral">
+        <div class="image-container">
+          <img src="../_images/_people/francesco_biral.jpg" alt="Francesco Biral">
+        </div>
+      </a>
       <br>
-      <span>Francesco Biral</span>
+      <a href="/People/MattiaPiccinini"> <span>Francesco Biral</span> </a>
       <br>
       <span>Associate Professor</span>
     </div>
@@ -263,20 +269,24 @@ classes: wide
       <span>PhD Student</span>
     </div>
     <div class="member2">
-      <div class="image-container2">
-        <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher">
-      </div>
+      <a href="/People/MatteoLarcher">
+        <div class="image-container2">
+          <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher">
+        </div>
+      </a>
       <br>
-      <span>Matteo Larcher</span>
+      <a href="/People/SebastianoTaddei"> <span>Matteo Larcher</span> </a>
       <br>
       <span>PhD Student</span>
     </div>
     <div class="member2">
-      <div class="image-container2">
-        <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini">
-      </div>
+      <a href="/People/MattiaPiccinini">
+        <div class="image-container2">
+          <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini">
+        </div>
+      </a>
       <br>
-      <span>Mattia Piccinini</span>
+      <a href="/People/SebastianoTaddei"> <span>Mattia Piccinini</span> </a>
       <br>
       <span>PhD Student</span>
     </div>
