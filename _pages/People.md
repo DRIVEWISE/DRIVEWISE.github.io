@@ -230,7 +230,7 @@ classes: wide
   <div class="member-container2">
     <div class="member2">
       <div class="image-container2">
-        <img src="../_images/_people/edoardo_pagot.JPG" alt="Edoardo Pagot">
+        <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
       </div>
       <br>
       <span>Edoardo Pagot</span>
