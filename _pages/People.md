@@ -5,9 +5,90 @@ permalink: /People/
 image_path: ../_images/_people/
 classes: wide
 ---
-
-
 <style>
+  .member-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .member-container .member {
+    text-align: center;
+    margin: 5px;
+    flex: 1 0 50%;
+    max-width: 30%;
+    min-width: 100px;
+  }
+
+  .member-container .member .image-container {
+    width: 100%;
+    padding-bottom: 0%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .member-container .member .image-container:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .member-container .member .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .member-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .member-container2 .member2 {
+    text-align: center;
+    margin: 5px;
+    flex: 1 0 30%;
+    max-width: 20%;
+    min-width: 80px;
+  }
+
+  .member-container2 .member2 .image-container2 {
+    width: 100%;
+    padding-bottom: 0%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .member-container2 .member2 .image-container2:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .member-container2 .member2 .image-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+</style>
+
+<!-- <style>
+  .inner {
+    max-width: 75%;
+  }
+
   .member-container {
     display: flex;
     flex-wrap: wrap;
@@ -53,8 +134,8 @@ classes: wide
   }
 
   .member-container .member .image-container2 {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -84,9 +165,13 @@ classes: wide
     position: relative;
     z-index: 1;
   }
-</style>
+</style> -->
 
-  <h2>Professor ans senior members</h2>
+
+
+
+
+  <h2>Professor and senior members</h2>
   <div class="member-container">
     <div class="member">
       <div class="image-container">
@@ -135,9 +220,9 @@ classes: wide
     </div>
   </div>
 
-   <h2>PhD students and junior members</h2>
-  <div class="member-container">
-    <div class="member">
+   <h2>Active members</h2>
+  <div class="member-container2">
+    <div class="member2">
       <div class="image-container2">
         <img src="../_images/_people/edoardo_pagot.JPG" alt="Edoardo Pagot">
       </div>
@@ -146,7 +231,7 @@ classes: wide
       <br>
       <span>Research fellow</span>
     </div>
-    <div class="member">
+    <div class="member2">
       <div class="image-container2">
         <img src="../_images/_people/alice_plebe.jpg" alt="Alice Plebe">
       </div>
@@ -155,7 +240,7 @@ classes: wide
       <br>
       <span>Post-doc</span>
     </div>
-    <div class="member">
+    <div class="member2">
       <a href="/People/MattiaPiazza">
         <div class="image-container2">
           <img src="../_images/_people/MattiaPiazza.jpeg" alt="Mattia Piazza">
@@ -166,7 +251,7 @@ classes: wide
       <br>
       <span>PhD Student</span>
     </div>
-    <div class="member">
+    <div class="member2">
       <a href="/People/SebastianoTaddei">
         <div class="image-container2">
           <img src="../_images/_people/sebastiano_taddei.jpg" alt="Sebastiano Taddei">
@@ -177,7 +262,7 @@ classes: wide
       <br>
       <span>PhD Student</span>
     </div>
-    <div class="member">
+    <div class="member2">
       <div class="image-container2">
         <img src="../_images/_people/matteo_larcher.jpg" alt="Matteo Larcher">
       </div>
@@ -186,7 +271,7 @@ classes: wide
       <br>
       <span>PhD Student</span>
     </div>
-    <div class="member">
+    <div class="member2">
       <div class="image-container2">
         <img src="../_images/_people/mattia_piccinini.JPG" alt="Mattia Piccinini">
       </div>
@@ -195,7 +280,7 @@ classes: wide
       <br>
       <span>PhD Student</span>
     </div>
-    <div class="member">
+    <div class="member2">
       <div class="image-container2">
         <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco">
       </div>
