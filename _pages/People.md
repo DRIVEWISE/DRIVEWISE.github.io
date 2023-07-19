@@ -178,20 +178,24 @@ classes: wide
   <h2>Professor and senior members</h2>
   <div class="member-container">
     <div class="member">
-      <div class="image-container">
-        <img src="../_images/_people/mauro_da_lio.jpg" alt="Mauro Da Lio">
-      </div>
+      <a href="/People/MauroDaLio">
+        <div class="image-container">
+          <img src="../_images/_people/mauro_da_lio.jpg" alt="Mauro Da Lio">
+        </div>
+      </a>
       <br>
-      <span>Mauro Da Lio</span>
+      <a href="/People/MauroDaLio"> <span>Mauro Da Lio</span> </a>
       <br>
       <span>Full Professor</span>
     </div>
     <div class="member">
-      <div class="image-container">
-        <img src="../_images/_people/enrico_bertolazzi.jpg" alt="Enrico Bertolazzi">
-      </div>
+      <a href="/People/EnricoBertolazzi">
+        <div class="image-container">
+          <img src="../_images/_people/enrico_bertolazzi.jpg" alt="Enrico Bertolazzi">
+        </div>
+      </a>
       <br>
-      <span>Enrico Bertolazzi</span>
+      <a href="/People/EnricoBertolazzi"> <span>Enrico Bertolazzi</span> </a>
       <br>
       <span>Associate Professor</span>
     </div>
@@ -207,20 +211,24 @@ classes: wide
       <span>Associate Professor</span>
     </div>
     <div class="member">
-      <div class="image-container">
-        <img src="../_images/_people/gastone_rosati.jpg" alt="Gastone Pietro Rosati Papini">
-      </div>
+      <a href="/People/GastonePietroRosatiPapini">
+        <div class="image-container">
+          <img src="../_images/_people/gastone_rosati.jpg" alt="Gastone Pietro Rosati Papini">
+        </div>
+      </a>
       <br>
-      <span>Gastone Pietro <br> Rosati Papini</span>
+      <a href="/People/GastonePietroRosatiPapini"> <span>Gastone Pietro <br> Rosati Papini</span> </a>
       <br>
       <span>Associate Professor</span>
     </div>
     <div class="member">
-      <div class="image-container">
-        <img src="../_images/_people/antonello_cherubini.jpg" alt="Antonello Cherubini">
-      </div>
+      <a href="/People/AntonelloCherubini">
+        <div class="image-container">
+          <img src="../_images/_people/antonello_cherubini.jpg" alt="Antonello Cherubini">
+        </div>
+      </a>
       <br>
-      <span>Antonello Cherubini</span>
+      <a href="/People/AntonelloCherubini"> <span>Antonello Cherubini</span> </a>
       <br>
       <span>RTdA</span>
     </div>
@@ -229,20 +237,24 @@ classes: wide
    <h2>Active members</h2>
   <div class="member-container2">
     <div class="member2">
-      <div class="image-container2">
-        <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
-      </div>
+      <a href="/People/EdoardoPagot">
+        <div class="image-container2">
+          <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
+        </div>
+      </a>
       <br>
-      <span>Edoardo Pagot</span>
+      <a href="/People/EdoardoPagot"> <span>Edoardo Pagot</span> </a>
       <br>
       <span>Research fellow</span>
     </div>
     <div class="member2">
-      <div class="image-container2">
-        <img src="../_images/_people/alice_plebe.jpg" alt="Alice Plebe">
-      </div>
+      <a href="/People/AlicePlebe">
+        <div class="image-container2">
+          <img src="../_images/_people/alice_plebe.jpg" alt="Alice Plebe">
+        </div>
+      </a>
       <br>
-      <span>Alice Plebe</span>
+      <a href="/People/AlicePlebe"> <span>Alice Plebe</span> </a>
       <br>
       <span>Post-doc</span>
     </div>
@@ -291,11 +303,13 @@ classes: wide
       <span>PhD Student</span>
     </div>
     <div class="member2">
-      <div class="image-container2">
-        <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco">
-      </div>
-      <br>
-      <span>Davide Stocco</span>
+      <a href="/People/DavideStocco">
+        <div class="image-container2">
+          <img src="../_images/_people/davide_stocco.jpg" alt="Davide Stocco">
+        </div>
+        <br>
+      </a>
+      <a href="/People/DavideStocco"> <span>Davide Stocco</span> </a>
       <br>
       <span>PhD Student</span>
     </div>
