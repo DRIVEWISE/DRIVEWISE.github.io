@@ -24,6 +24,6 @@ div.biodata {
     <div>
       <h2>Enrico Bertolazzi</h2>
       <p><strong>Job Title:</strong> Associated Professor</p>
-      <p><strong>Bio:</strong> </p>
+      <p><strong>Bio:</strong> Enrico Bertolazzi received the master’s degree cum laude in mathematics from the University of Trento, Italy. He is currently an Associate Professor in Numerical Analysis with the Department of Industrial Engineering at the University of Trento. His research interests are mainly in the field of numerical analysis and include the development of numerical algorithms for the numerical solution of optimal control problems mainly with indirect methods. </p>
     </div>
 </div>
