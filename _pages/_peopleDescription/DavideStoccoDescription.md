@@ -25,6 +25,6 @@ div.biodata {
     <div>
       <h2>Davide Stocco</h2>
       <p><strong>Job Title:</strong> PhD Student</p>
-      <p><strong>Bio:</strong> </p>
+      <p><strong>Bio:</strong> Davide Stocco received a master’s degree in mechatronics engineering at the University of Trento, where he is currently working on DAEs index reduction and integration algorithms as part of his PhD research program. His research interests are tire/road interaction and tire modeling, and ODEs/DAEs numerical integration methods for real-time applications.</p>
     </div>
 </div>
