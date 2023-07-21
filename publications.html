@@ -1,15 +1,164 @@
 ---
-layout: default
+layout: single
+classes: wide
 title: Publications
 permalink: /Publications/
 ---
 
-<h1 class="mt-4">Publications</h1>
+<h2>Journals</h2>
+
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
+{% if pub.journal %}
 <div class="pubitem">
-  <div class="pubtitle">{{ pub.title }}</div>
-  <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+  <div class="pubteaser">
+    <a href="{{pub.url}}">
+      {% if pub.video %}
+      <img src="https://img.youtube.com/vi/{{pub.video}}/0.jpg" alt="{{pub.slug}} publication teaser"/>
+      {% else %}
+      <img src="/pub_images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
+      {% endif %}
+    </a>
+  </div>
+  <div class="column">
+    <div class="pubtitle">
+      {{ pub.title }}
+    </div>
+    <div class="pubauthors">
+      {{ pub.authors }}
+    </div>
+    <div class="pubinfo">
+      {{ pub.publication }}, {{ pub.year}}
+    </div>
+    <div class="publinks">
+      {% if pub.pdf %}
+      <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
+      {% endif %}
+      {% if pub.doi %}
+      <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
+      {% endif %}
+      <a href="{{pub.url}}"><i class="fas fa-arrow-right"></i> Project Page</a>
+    </div>
+  </div>
 </div>
+{% endif %}
 {% endfor %}
+
+
+<h2>Conferences</h2>
+
+{% assign publications = site.publications | sort: "year" | reverse %}
+{% for pub in publications %}
+{% if pub.conference %}
+<div class="pubitem">
+  <div class="pubteaser">
+    <a href="{{pub.url}}">
+      {% if pub.video %}
+      <img src="https://img.youtube.com/vi/{{pub.video}}/0.jpg" alt="{{pub.slug}} publication teaser"/>
+      {% else %}
+      <img src="/pub_images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
+      {% endif %}
+    </a>
+  </div>
+  <div class="column">
+    <div class="pubtitle">
+      {{ pub.title }}
+    </div>
+    <div class="pubauthors">
+      {{ pub.authors }}
+    </div>
+    <div class="pubinfo">
+      {{ pub.publication }}, {{ pub.year}}
+    </div>
+    <div class="publinks">
+      {% if pub.pdf %}
+      <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
+      {% endif %}
+      {% if pub.doi %}
+      <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
+      {% endif %}
+      <a href="{{pub.url}}"><i class="fas fa-arrow-right"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2>Workshops</h2>
+
+{% assign publications = site.publications | sort: "year" | reverse %}
+{% for pub in publications %}
+{% if pub.workshop %}
+<div class="pubitem">
+  <div class="pubteaser">
+    <a href="{{pub.url}}">
+      {% if pub.video %}
+      <img src="https://img.youtube.com/vi/{{pub.video}}/0.jpg" alt="{{pub.slug}} publication teaser"/>
+      {% else %}
+      <img src="/pub_images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
+      {% endif %}
+    </a>
+  </div>
+  <div class="column">
+    <div class="pubtitle">
+      {{ pub.title }}
+    </div>
+    <div class="pubauthors">
+      {{ pub.authors }}
+    </div>
+    <div class="pubinfo">
+      {{ pub.publication }}, {{ pub.year}}
+    </div>
+    <div class="publinks">
+      {% if pub.pdf %}
+      <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
+      {% endif %}
+      {% if pub.doi %}
+      <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
+      {% endif %}
+      <a href="{{pub.url}}"><i class="fas fa-arrow-right"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2>Poster sessions</h2>
+
+{% assign publications = site.publications | sort: "year" | reverse %}
+{% for pub in publications %}
+{% if pub.poster %}
+<div class="pubitem">
+  <div class="pubteaser">
+    <a href="{{pub.url}}">
+      {% if pub.video %}
+      <img src="https://img.youtube.com/vi/{{pub.video}}/0.jpg" alt="{{pub.slug}} publication teaser"/>
+      {% else %}
+      <img src="/pub_images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
+      {% endif %}
+    </a>
+  </div>
+  <div class="column">
+    <div class="pubtitle">
+      {{ pub.title }}
+    </div>
+    <div class="pubauthors">
+      {{ pub.authors }}
+    </div>
+    <div class="pubinfo">
+      {{ pub.publication }}, {{ pub.year}}
+    </div>
+    <div class="publinks">
+      {% if pub.pdf %}
+      <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
+      {% endif %}
+      {% if pub.doi %}
+      <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
+      {% endif %}
+      <a href="{{pub.url}}"><i class="fas fa-arrow-right"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+

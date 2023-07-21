@@ -1,0 +1,92 @@
+
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+
+.pubitem {
+  margin: 2em 0;
+  line-height: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.pubtitle {
+  margin-bottom: .5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.pubauthors, .pubinfo {
+  font-size: 75%;
+  margin-bottom: .75em;
+}
+
+.pubteaser {
+  clear: both;
+}
+
+.pubteaser a {
+  float: left;
+  margin-right: 2em;
+}
+
+.pubteaser img {
+  width: 180px;
+  border: 1px solid black;
+}
+
+.publinks {
+  font-size: 75%;
+}
+
+.publication-authors {
+  margin: 0.5rem 0;
+}
+
+.publication-info {
+  margin: 0.5rem 0;
+}
+
+.publication-teaser {
+  margin: 2em;
+}
+
+.publication-teaser img {
+  border: none;
+}
+
+.column {
+  flex: 1;
+  padding: 5px;
+}
