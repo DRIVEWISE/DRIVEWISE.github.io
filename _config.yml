@@ -163,6 +163,7 @@ include:
   - _simulator
   - _peopleDescription
   - _publicationCollection
+  - _publications
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
