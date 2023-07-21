@@ -161,6 +161,8 @@ include:
   - _people
   - _img_papers
   - _simulator
+  - _peopleDescription
+  - _publicationCollection
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -295,3 +297,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# collections:
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name

@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: single
-permalink: /Publications/
+permalink: /Publications copy/
 image_path: ../_images/_img_papers/
 # classes: wide
 toc: true
