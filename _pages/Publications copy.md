@@ -103,7 +103,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022
 
 
 # Poster Sessions
-
+<!-- 
 ## Mptree: Motion primitive tree exploration for trajectory planning with dynamic obstacle avoidance
 
 *Mattia Piazza, Mattia Piccinini*
@@ -116,7 +116,7 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022
 
 **PDF**:
  ___
-
+ -->
 
 ## Virtual driver to control race cars near the limits
 
