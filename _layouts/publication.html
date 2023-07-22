@@ -17,9 +17,14 @@ layout: default
   {% if page.video %}
   <iframe width="1239" height="697" src="https://www.youtube.com/embed/{{page.video}}" title="{{page.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   {% else %}
-  <div class="publication-teaser">
-    <img src="/pub_images/{{ page.slug }}.jpg" alt="project teaser"/>
-  </div>
+    {% if page.noimg %}
+    <div class="publication-teaser">
+    </div>
+    {% else %}
+    <div class="publication-teaser">
+      <img src="/pub_images/{{ page.slug }}.jpg" alt="project teaser"/>
+    </div>
+    {% endif %}
   {% endif %}
 
   {{ content }}
