@@ -4,9 +4,9 @@ main:
     url: /About/
   - title: "People"
     url: /People/
-  - title: "Research"
-    url: /Research/
   - title: "Publications"
     url: /Publications/
-  - title: "Driving Simulator"
-    url: /DrivingSimulator/
+  # - title: "Research"
+  #   url: /Research/
+  # - title: "Driving Simulator"
+  #   url: /DrivingSimulator/

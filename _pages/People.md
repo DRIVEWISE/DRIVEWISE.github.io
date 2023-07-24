@@ -88,93 +88,6 @@ classes: wide
 
 </style>
 
-<!-- <style>
-  .inner {
-    max-width: 75%;
-  }
-
-  .member-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .member-container .member {
-    text-align: center;
-    margin: 5px;
-  }
-
-  .member-container .member .image-container {
-    width: 180px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden;
-    position: relative;
-    border-radius: 50%;
-  }
-
-  .member-container .member .image-container:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    transform: translateY(-50%);
-  }
-
-  .member-container .member .image-container img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: top center;
-    position: relative;
-    z-index: 1;
-  }
-
-  .member-container .member .image-container2 {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden;
-    position: relative;
-    border-radius: 50%;
-  }
-
-  .member-container .member .image-container2:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    transform: translateY(-50%);
-  }
-
-  .member-container .member .image-container2 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: top center;
-    position: relative;
-    z-index: 1;
-  }
-</style> -->
-
-
-
-
-
   <h2>Professor and senior members</h2>
   <div class="member-container">
     <div class="member">
@@ -315,4 +228,4 @@ classes: wide
     </div>
   </div>
 
-   <h2>Former members</h2>
+   <!-- <h2>Former members</h2> -->
