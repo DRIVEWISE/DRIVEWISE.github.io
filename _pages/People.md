@@ -150,17 +150,6 @@ classes: wide
    <h2>Active members</h2>
   <div class="member-container2">
     <div class="member2">
-      <a href="/People/EdoardoPagot">
-        <div class="image-container2">
-          <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
-        </div>
-      </a>
-      <br>
-      <a href="/People/EdoardoPagot"> <span>Edoardo Pagot</span> </a>
-      <br>
-      <span>Research fellow</span>
-    </div>
-    <div class="member2">
       <a href="/People/AlicePlebe">
         <div class="image-container2">
           <img src="../_images/_people/alice_plebe.jpg" alt="Alice Plebe">
@@ -228,4 +217,18 @@ classes: wide
     </div>
   </div>
 
-   <!-- <h2>Former members</h2> -->
+   <h2>Former members</h2>
+    <div class="member-container2">
+      <div class="member2">
+        <a href="/People/EdoardoPagot">
+          <div class="image-container2">
+            <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
+          </div>
+        </a>
+        <br>
+        <a href="/People/EdoardoPagot"> <span>Edoardo Pagot</span> </a>
+        <br>
+        <span>Research fellow</span>
+      </div>
+    </div>
+  
