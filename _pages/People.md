@@ -4,6 +4,7 @@ layout: single
 permalink: /People/
 image_path: ../_images/_people/
 classes: wide
+author_profile: true
 ---
 <style>
   .inner {
