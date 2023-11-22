@@ -3,6 +3,7 @@ title: "About"
 # layout: single
 permalink: /About/
 classes: wide
+author_profile: true
 ---
 
 Welcome to the DRIVEWISE research group at the <a href="https://www.dii.unitn.it/">Department of Industrial Engineering</a> of the <a href="https://www.unitn.it/"></a>University of Trento</a>, led by Professors Mauro Da Lio, Francesco Biral, Enrico Bertolazzi, and Gastone Pietro Rosati Papini.
