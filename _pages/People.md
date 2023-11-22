@@ -87,6 +87,44 @@ author_profile: true
     left: 0;
   }
 
+  .member-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .member-container3 .member3 {
+    text-align: center;
+    margin: 5px;
+    flex: 1 0 30%;
+    max-width: 20%;
+    min-width: 80px;
+  }
+
+  .member-container3 .member3 .image-container3 {
+    width: 100%;
+    padding-bottom: 0%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .member-container3 .member3 .image-container3:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .member-container3 .member3 .image-container3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
 </style>
 
   <h2>Professor and senior members</h2>
@@ -148,7 +186,7 @@ author_profile: true
     </div>
   </div>
 
-   <h2>Active members</h2>
+  <h2>Active members</h2>
   <div class="member-container2">
     <div class="member2">
       <a href="/People/AlicePlebe">
@@ -218,18 +256,18 @@ author_profile: true
     </div>
   </div>
 
-   <h2>Former members</h2>
-    <div class="member-container2">
-      <div class="member2">
-        <a href="/People/EdoardoPagot">
-          <div class="image-container2">
-            <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
-          </div>
-        </a>
-        <br>
-        <a href="/People/EdoardoPagot"> <span>Edoardo Pagot</span> </a>
-        <br>
-        <span>Research fellow</span>
-      </div>
+  <h2>Former members</h2>
+  <div class="member-container3">
+    <div class="member3">
+      <a href="/People/EdoardoPagot">
+        <div class="image-container2">
+          <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
+        </div>
+      </a>
+      <br>
+      <a href="/People/EdoardoPagot"> <span>Edoardo Pagot</span> </a>
+      <br>
+      <span>Research fellow</span>
     </div>
+  </div>
   
