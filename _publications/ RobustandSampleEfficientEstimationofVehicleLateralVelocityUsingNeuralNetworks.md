@@ -2,12 +2,13 @@
 layout: publication
 title: Robust and Sample-Efficient Estimation of Vehicle Lateral Velocity Using Neural Networks With Explainable Structure Informed by Kinematic Principles
 authors: Mauro Da Lio, Mattia Piccinini and Francesco Biral
-publication: EEE Transactions on Intelligent Transportation Systems
+publication: IEEE Transactions on Intelligent Transportation Systems
 journal: true
 year: 2023
 doi: https://doi.org/10.1109/TITS.2023.3303776
 slides: false
 video: false
+noimg: true
 logo: xplore_logo_white.svg
 ---
 
