@@ -16,7 +16,11 @@ permalink: /Publications/
       {% if pub.video %}
       <img src="https://img.youtube.com/vi/{{pub.video}}/0.jpg" alt="{{pub.slug}} publication teaser"/>
       {% else %}
-      <img src="/pub_images/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser"/>
+        {% if pub.logo %}
+         <img src="/_images/_third_parties_logos/{{ pub.logo }}" alt="{{pub.logo}} logo"/>
+        {% else %}
+          <img src="/pub_images/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser"/>
+        {% endif %}
       {% endif %}
     </a>
   </div>

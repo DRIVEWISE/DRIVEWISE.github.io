@@ -8,6 +8,7 @@ year: 2023
 doi: https://doi.org/10.1109/TITS.2023.3303776
 slides: false
 video: false
+logo: xplore_logo_white.svg
 ---
 
 ## Abstract <!-- omit in toc -->
