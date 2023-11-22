@@ -260,7 +260,7 @@ author_profile: true
   <div class="member-container3">
     <div class="member3">
       <a href="/People/EdoardoPagot">
-        <div class="image-container2">
+        <div class="image-container3">
           <img src="../_images/_people/edoardo_pagot.jpg" alt="Edoardo Pagot">
         </div>
       </a>
@@ -270,4 +270,3 @@ author_profile: true
       <span>Research fellow</span>
     </div>
   </div>
-  
