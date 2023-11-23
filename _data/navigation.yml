@@ -6,6 +6,10 @@ main:
     url: /People/
   - title: "Publications"
     url: /Publications/
+  - title: "Projects"
+    url: /Projects/
+  - title: "Contacts"
+    url: /Contacts/
   # - title: "Research"
   #   url: /Research/
   # - title: "Driving Simulator"

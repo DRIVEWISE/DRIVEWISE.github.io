@@ -12,6 +12,8 @@ header:
   actions:
     - label: "More Info"
       url: "/About/"
+    - label: "Contact us"
+      url: "/Contacts/"
 ---
 
 <!-- ---
