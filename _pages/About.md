@@ -8,6 +8,7 @@ author_profile: true
 excerpt: "Welcome to the DRIVEWISE research group"
 header:
   overlay_image: /_images/Neurobotic-drive-lab-logo.png
+  overlay_filter: 0.5
   actions:
     - label: "More Info"
       url: "/About/"
