@@ -10,6 +10,24 @@ slides: false
 video: false
 pdf: true
 noimg: true
+categories:
+  - Autonomous Driving
+  - Advanced Driving Assistance Systems
+  - Artificial Intelligence
+  - Optimal Control
+  - Poster
+  - Poster session
+  - Industrial Engineering Day
+tags:
+  - Artificial Agent
+  - Planning
+  - Optimal Control
+  - RRT* exploration
+  - Mattia Piazza
+  - Mattia Piccinini
+  - Francesco Biral
+  - Mauro Da Lio
+  - IED Trento
 ---
 
 The MPTREE is a motion primitive tree exploration algorithm for trajectory planning with dynamic obstacle avoidance. The algorithm is based on the exploration of the vehicle state space by means of a tree. The algorithm is able to generate trajectories in real-time and to avoid dynamic obstacles.
@@ -29,4 +47,3 @@ Here we summarize the basic principle behind the loop. The TP sample a new point
 Then the tree expansion tries to find a parent for the new sampled node. For each candidate parent in the neighbors’ list (previous) of the new waypoint it tries to connect and select the best one that satisfies all constraints. If no connection is available due to constraints or lack of neighbors, the new sample point is discarded. Elsewhere, the waypoint and its connection is stored and the rewiring procedure can be called. The rewiring aims at checking if new sampled node is a better parent for a sub-branch of the tree. For each candidate rewire in the neighbors’ list (forward) of the new waypoint it tries to connect and select the best one that satisfies all constraints. If it is better than the previously stored one, the subtree is updated, otherwise the tree remain the same.
 At the end of the loop, the exit condition is checked. If it is satisfied, the loop is terminated, the best planned solution planned so far evaluated are implemented and communicated. If the exit condition is not yet satisfied another the expansion loop is reiterated looking for a better maneuver.
 The faster the sub-iteration the larger the state set explored therefore the bigger tree is generated. The number of explored nodes plays a key role in the maneuver selection. A low number of nodes can produce an ill-conditioned fluctuating maneuver, while a reasonable number of nodes fairly approximate an optimal maneuver and a stable solution. Different implementation strategies can be adopted to improve the expansion phase in order not to explore not promising states and refine the best maneuvers. -->
-

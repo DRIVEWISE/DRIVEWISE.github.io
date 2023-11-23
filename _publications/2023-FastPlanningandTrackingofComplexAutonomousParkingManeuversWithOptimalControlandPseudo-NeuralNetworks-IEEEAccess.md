@@ -8,6 +8,24 @@ year: 2023
 doi: https://doi.org/10.1109/ACCESS.2023.3330431
 slides: false
 video: U2mRTzmFj9w
+categories:
+  - Autonomous Driving
+  - Advanced Driving Assistance Systems
+  - Artificial Intelligence
+  - Optimal Control
+  - PINS
+  - Journal
+tags:
+  - Artificial Agent
+  - Parking
+  - Planning
+  - Optimal Control
+  - A* exploration
+  - Edoardo Pagot
+  - Mattia Piccinini
+  - Enrico Bertolazzi
+  - Francesco Biral
+  - IEEE Access
 ---
 
 ## Abstract <!-- omit in toc -->

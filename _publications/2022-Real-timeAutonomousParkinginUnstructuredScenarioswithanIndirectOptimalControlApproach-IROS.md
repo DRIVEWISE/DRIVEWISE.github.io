@@ -8,6 +8,25 @@ year: 2022
 doi: false
 slides: false
 video: U2mRTzmFj9w
+categories:
+  - Autonomous Driving
+  - Advanced Driving Assistance Systems
+  - Artificial Intelligence
+  - Optimal Control
+  - PINS
+  - Journal
+tags:
+  - Artificial Agent
+  - Parking
+  - Planning
+  - Optimal Control
+  - A* exploration
+  - Edoardo Pagot
+  - Mattia Piccinini
+  - Alice Plebe
+  - Enrico Bertolazzi
+  - Francesco Biral
+  - IROS
 ---
 
 ## Abstract <!-- omit in toc -->

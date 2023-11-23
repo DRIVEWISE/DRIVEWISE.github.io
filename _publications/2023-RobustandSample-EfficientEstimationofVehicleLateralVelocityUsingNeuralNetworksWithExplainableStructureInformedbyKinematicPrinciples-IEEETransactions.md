@@ -10,6 +10,22 @@ slides: false
 video: false
 noimg: true
 logo: xplore_logo_white.svg
+categories:
+  - Autonomous Driving
+  - Advanced Driving Assistance Systems
+  - Artificial Intelligence
+  - Neural Network
+  - Optimal Control
+  - Journal
+tags:
+  - Artificial Agent
+  - Estimation
+  - Mattia Piccinini
+  - Mauro Da Lio
+  - Francesco Biral
+  - IEEE Xplore
+  - IEEE Transactions
+  - Intelligent Transportation Systems
 ---
 
 ## Abstract <!-- omit in toc -->
