@@ -4,7 +4,7 @@ layout: splash
 permalink: /About/
 author_profile: true
 header:
-  image: /_images/PoloFerrari2.jpg
+  image: /_images/Neurobotic-drive-lab-logo.png
 ---
 
 <!-- ---
