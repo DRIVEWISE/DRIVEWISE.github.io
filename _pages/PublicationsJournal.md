@@ -6,45 +6,27 @@ classes: wide
 author_profile: true
 ---
 
-{% assign publications = site.publications | sort: "year" | reverse %}
-{% for pub in publications %}
-{% if pub.journal %}
-<div class="pubitem">
-  <div class="pubteaser">
-    <a href="{{pub.url}}">
-      {% if pub.video %}
-      <img src="https://img.youtube.com/vi/{{pub.video}}/0.jpg" alt="{{pub.slug}} publication teaser"/>
-      {% else %}
-        {% if pub.logo %}
-         <img src="/_images/_third_parties_logos/{{ pub.logo }}" alt="{{pub.logo}} logo"/>
-        {% else %}
-          <img src="/_images/_pub_images/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser"/>
-        {% endif %}
-      {% endif %}
-    </a>
-  </div>
-  <div class="column">
-    <a href="{{pub.url}}" class="nounderline">
-      <div class="pubtitle">
-        {{ pub.title }}
-      </div>
-    </a>
-    <div class="pubauthors">
-      {{ pub.authors }}
+<ul class="taxonomy__index">
+  {% assign postsInYear = site.publications | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.year' | sort: "year" | reverse %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign postsByYear = site.publications | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.year' | sort: "year" | reverse %}
+{% for year in postsByYear %}
+  <section id="{{ year.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ year.name }}</h2> 
+    <div class="entries-{{ entries_layout }}">
+      {% for post in year.items %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
     </div>
-    <div class="pubinfo">
-      {{ pub.publication }}, {{ pub.year}}
-    </div>
-    <div class="publinks">
-      {% if pub.pdf %}
-      <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
-      {% endif %}
-      {% if pub.doi %}
-      <a href="{{ pub.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
-      {% endif %}
-      <a href="{{pub.url}}"><i class="fas fa-arrow-right"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-{% endif %}
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
 {% endfor %}

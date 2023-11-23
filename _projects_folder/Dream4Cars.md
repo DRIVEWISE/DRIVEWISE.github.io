@@ -1,19 +1,25 @@
 ---
-title: "Dream4Cars European Project"
+title: "Dream4Cars"
+permalink: /Projects/Dream4Cars/ 
 header:
   teaser: https://www.dreams4cars.eu/themes/dreams4carstheme/logo.svg
   og_image: https://www.dreams4cars.eu/themes/dreams4carstheme/logo.svg
-categories:
-  - European Project
-  - Autonomous Driving
-  - Advanced Driving Assistance Systems
-  - Artificial Intelligence
-tags:
-  - Artificial Angent
-  - ODD
-  - Simulation
-last_modified_at: 2023-11-22T18:13:00+01:00
+# categories:
+#   - European Project
+#   - Autonomous Driving
+#   - Advanced Driving Assistance Systems
+#   - Artificial Intelligence
+# tags: 
+#   - Artificial Angent
+#   - ODD
+#   - Simulation
+layout: project_page
 classes: wide
+author_profile: true
+project_year: 2017
+Project_website: https://www.dreams4cars.eu/en/
+European_project: true
+Europe_website: https://cordis.europa.eu/project/id/731593
 ---
 
 [Dream4Cars](https://www.dreams4cars.eu/en/) is a European project funded by the European Commission under the Horizon 2020 program. The project started in January 2017 and ended on December 2019 with a founding of 4.3 million euros.

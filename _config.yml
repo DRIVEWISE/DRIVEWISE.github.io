@@ -166,6 +166,7 @@ include:
   - _peopleDescription
   - _publicationCollection
   - _publications
+  - _projects_folder
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
