@@ -4,12 +4,6 @@ layout: single
 permalink: /Contacts/
 classes: wide
 author_profile: true
-tags: 
-  - Contact
-  - Email
-  - Address
-  - Trento
-  - Italy
 ---
 
 ## Email us

@@ -4,11 +4,6 @@ layout: single
 permalink: /Projects/
 classes: wide
 author_profile: true
-tags: 
-  - Projects
-  - Collaboration
-  - Europe
-  - Industry
 ---
 
 ## European Projects
