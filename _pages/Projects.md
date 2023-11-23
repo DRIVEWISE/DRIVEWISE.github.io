@@ -82,5 +82,5 @@ Our research group has a long history of collaboration with industry. We have be
  - DANA Incorporated (Italy)
  - RELab (Italy)
  - AnteMotion (Italy)
- - 
+  
 We are currently involved in several projects with the motorsport industry on two and four wheels. In addition, we collaborate with tire manufacturers.
