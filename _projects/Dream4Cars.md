@@ -1,21 +1,11 @@
 ---
+layout: project_page
 title: "Dream4Cars"
+brief: "Offline simulation mechanism to recombine and reproduce emulated worlds for safe development of autonomous driving systems"
 permalink: /Projects/Dream4Cars/ 
 header:
   teaser: https://www.dreams4cars.eu/themes/dreams4carstheme/logo.svg
   og_image: https://www.dreams4cars.eu/themes/dreams4carstheme/logo.svg
-# categories:
-#   - European Project
-#   - Autonomous Driving
-#   - Advanced Driving Assistance Systems
-#   - Artificial Intelligence
-# tags: 
-#   - Artificial Angent
-#   - ODD
-#   - Simulation
-layout: project_page
-classes: wide
-author_profile: true
 project_year: 2017
 Project_website: https://www.dreams4cars.eu/en/
 European_project: true

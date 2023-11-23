@@ -92,3 +92,69 @@
 }
 
 a.nounderline {text-decoration: none; }
+
+
+
+
+
+
+
+
+
+.projitem {
+  margin: 2em 0;
+  line-height: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.projtitle {
+  margin-bottom: .5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.projbrief {
+  margin-bottom: .5em;
+  line-height: 1.2em;
+  font-weight: small
+}
+
+.projauthors, .projinfo {
+  font-size: 75%;
+  margin-bottom: .75em;
+}
+
+.projteaser {
+  clear: both;
+}
+
+.projteaser a {
+  float: left;
+  margin-right: 2em;
+}
+
+.projteaser img {
+  width: 180px;
+  border: 1px solid black;
+}
+
+.projlinks {
+  font-size: 75%;
+}
+
+.projlication-authors {
+  margin: 0.5rem 0;
+}
+
+.projlication-info {
+  margin: 0.5rem 0;
+}
+
+.projlication-teaser {
+  margin: 2em;
+}
+
+.projlication-teaser img {
+  border: none;
+}
