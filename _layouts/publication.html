@@ -2,6 +2,23 @@
 layout: default
 ---
 
+<style>
+  .responsive-iframe-container {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+  .responsive-iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+  }
+  </style>
+
 <div class="page">
 
   <h1 class="mt-4 publication-title">{{ page.title }}</h1>
@@ -15,7 +32,9 @@ layout: default
   </div>
 
   {% if page.video %}
-  <iframe width="1239" height="697" src="https://www.youtube.com/embed/{{page.video}}" title="{{page.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="responsive-iframe-container">
+    <iframe src="https://www.youtube.com/embed/{{page.video}}" title="{{page.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
   {% else %}
     {% if page.noimg %}
     <div class="publication-teaser">
