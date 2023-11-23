@@ -1,10 +1,21 @@
 ---
+title: about
+layout: splash
+permalink: /About/
+author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /_images/PoloFerrari2.jpg
+---
+
+<!-- ---
 title: "About"
 layout: single
 permalink: /About/
 classes: wide
 author_profile: true
----
+--- -->
 
 Welcome to the DRIVEWISE research group at the <a href="https://www.dii.unitn.it/">Department of Industrial Engineering</a> of the <a href="https://www.unitn.it/">University of Trento</a>, led by Professors Mauro Da Lio, Francesco Biral, Enrico Bertolazzi, and Gastone Pietro Rosati Papini.
 Our collaborative team is dedicated to advanced applied mechanics, autonomous systems, artificial intelligence, dynamics and control, and optimization.
