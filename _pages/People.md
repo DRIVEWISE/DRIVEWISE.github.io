@@ -131,8 +131,13 @@ author_profile: true
 
   <div class="member-container">
   
-  {% assign people = site.people_pages | where_exp: "person", "person.member_type == 'professor' or person.member_type == 'senior'" %}
-  {% assign people = people | sort: "surname" %}
+  {% assign filtered_people = "" | split: "," %}
+  {% for person in site.people_pages %}
+    {% if person.member_type == "professor" or person.member_type == "senior" %}
+      {% assign filtered_people = filtered_people | push: person %}
+    {% endif %}
+  {% endfor %}
+  {% assign people = filtered_people | sort: "surname" %}
   {% assign people = people | sort: "seniority" %}
 
   {{ people | size }}
