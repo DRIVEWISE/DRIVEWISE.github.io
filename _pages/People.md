@@ -142,4 +142,20 @@ author_profile: true
 
   {{ people | size }}
 
+  {% for person in people %}
+
+  <div class="member">
+    <a href="{{person.permalink}}">
+      <div class="image-container">
+        <img src="../_images/_people/{{person.img}}" alt="{{person.title}}">
+      </div>
+    </a>
+    <br>
+    <a href="{{person.permalink}}"> <span>{{person.title}}</span> </a>
+    <br>
+    <span>{{person.job_title}}</span>
+  </div>
+    
+  {% endfor %}
+
   </div>
