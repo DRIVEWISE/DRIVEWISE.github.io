@@ -8,7 +8,6 @@ toc: true
 toc_label: "Table of Contents"
 ---
 
-
 ## Journals
 
 {% assign publications = site.publications | sort: "year" | reverse %}
