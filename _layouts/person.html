@@ -39,5 +39,20 @@ layout: default
 {{ content }}
 
 
+{% assign filtered_publications = "" | split: "," %}
+{% for item in site.publications %}
+  {% if item.authors contains page.name and item.authors contains page.surname and item.pub_type != 'poster' %}
+    {% assign filtered_publications = filtered_publications | push: item %}
+  {% endif %}
+{% endfor %}
+{% assign publications = filtered_publications | sort: "year" | reverse %}
+
+{% if publications.size > 0 %}
+
+<h2>Publications available here [{{ publications | size }}] </h2>
 
 
+
+
+
+{% endif %}
