@@ -131,4 +131,10 @@ author_profile: true
 
   <div class="member-container">
   
- 
+  {% assign people = site.people_pages | where_exp: "person", "person.member_type == 'professor' or person.member_type == 'senior'" %}
+  {% assign people = people | sort: "surname" %}
+  {% assign people = people | sort: "seniority" %}
+
+  {{ people | size }}
+
+  </div>
