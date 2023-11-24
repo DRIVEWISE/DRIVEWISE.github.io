@@ -7,7 +7,8 @@ layout: default
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
   }
   
   .biodata img {
@@ -15,11 +16,19 @@ layout: default
     border-radius: 5%;
   }
 
+  div.publication_collector {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
   div.publications {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-right: 10%;
+    padding-right: 5%;
   }
 </style>
 
@@ -37,6 +46,12 @@ layout: default
 </div>
 
 {{ content }}
+
+
+
+<div class="publication_collector">
+
+
 
 
 {% assign filtered_publications = "" | split: "," %}
@@ -213,3 +228,5 @@ layout: default
 {% endif %}
 
 {% endif %}
+
+</div>
