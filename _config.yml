@@ -308,9 +308,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
-  people_pages:
+  projects:
     output: true
     permalink: /:collection/:name
-  projects:
+  people_pages:
     output: true
     permalink: /:collection/:name
