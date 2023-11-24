@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<style>
+  div.biodata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10%;
+  }
+  
+  .biodata img {
+    object-fit: cover;
+    border-radius: 5%;
+  }
+</style>
+
+<!-- add a little vertical space  -->
+<div style="height: 20px;"></div>
+
+<div class="page">
+  <div class = "biodata">
+    <img src="../_images/_people/{{ page.img }}" alt="{{ page.title }}" width="20%" style="margin-right: 20px;">
+    <div>
+      <h2>{{ page.title }}</h2>
+      <p><strong>Job Title:</strong> {{ page.job_title }}</p>
+      <p><strong>Bio:</strong> {{ page.biodata }} </p>
+    </div>
+</div>
+
+{{ content }}
+
+</div>
+
+

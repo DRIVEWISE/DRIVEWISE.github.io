@@ -3,11 +3,13 @@ layout: publication
 title: Real-time Optimal Control of an Autonomous RC Car with Minimum-Time Maneuvers and a Novel Kineto-Dynamical Model
 authors: Edoardo Pagot, Mattia Piccinini, Francesco Biral
 publication: 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-conference: true
+pub_type: "conference"
 year: 2020
 doi: https://doi.org/10.1109/IROS45743.2020.9340640
+video: HADLEr5eTj0 #  false or youtube video id
 slides: false
-video: HADLEr5eTj0
+pdf: false # false no pdf true expected pdf with same name in the download folder
+noimg: true # false or true to avoid image the publication page
 categories:
   - Autonomous Driving
   - Advanced Driving Assistance Systems

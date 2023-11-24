@@ -3,11 +3,13 @@ layout: publication
 title: A Physics-Driven Artificial Agent for Online Time-Optimal Vehicle Motion Planning and Control
 authors: Mattia Piccinini, Sebastiano Taddei, Matteo Larcher, Mattia Piazza, Francesco Biral
 publication: IEEE Access
-journal: true
+pub_type: "journal" # "journal", "conference", "workshop" or "poster"
 year: 2023
 doi: https://doi.org/10.1109/ACCESS.2023.3274836
+video: xQ_T96IjGP8 #  false or youtube video id
 slides: false
-video: xQ_T96IjGP8
+pdf: false # false no pdf true expected pdf with same name in the download folder
+noimg: false # false or true to avoid image the publication page
 categories:
   - Autonomous Driving
   - Advanced Driving Assistance Systems

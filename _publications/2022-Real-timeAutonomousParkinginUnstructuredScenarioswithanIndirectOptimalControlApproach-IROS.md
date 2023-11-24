@@ -3,11 +3,13 @@ layout: publication
 title: Real-time Autonomous Parking in Unstructured Scenarios with an Indirect Optimal Control Approach
 authors: Edoardo Pagot, Mattia Piccinini, Alice Plebe, Enrico Bertolazzi, Francesco Biral
 publication: Behavior-Driven Autonomous Driving in Unstructured Environments (BADUE), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-workshop: true
+pub_type: "workshop" # "journal" "conference" "workshop" "poster"
 year: 2022
 doi: false
+video: U2mRTzmFj9w #  false or youtube video id
 slides: false
-video: U2mRTzmFj9w
+pdf: false # false no pdf true expected pdf with same name in the download folder
+noimg: false # false or true to avoid image the publication page
 categories:
   - Autonomous Driving
   - Advanced Driving Assistance Systems

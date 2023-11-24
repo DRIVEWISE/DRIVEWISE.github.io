@@ -167,6 +167,7 @@ include:
   - _publicationCollection
   - _publications
   - _projects
+  - _people_pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -308,5 +309,8 @@ collections:
     output: true
     permalink: /:collection/:name
   projects:
+    output: true
+    permalink: /:collection/:name
+  people_pages:
     output: true
     permalink: /:collection/:name

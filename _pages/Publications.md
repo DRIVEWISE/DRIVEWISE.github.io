@@ -4,13 +4,16 @@ classes: wide
 title: Publications
 permalink: /Publications/
 author_profile: true
+toc: true
+toc_label: "Table of Contents"
 ---
 
-<h2>Journals</h2>
+
+## Journals
 
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
-{% if pub.journal %}
+{% if pub.pub_type == "journal" %}
 <div class="pubitem">
   <div class="pubteaser">
     <a href="{{pub.url}}">
@@ -52,11 +55,12 @@ author_profile: true
 {% endfor %}
 
 
-<h2>Conferences</h2>
+## Conferences
 
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
-{% if pub.conference %}
+
+{% if pub.pub_type == "conference" %}
 <div class="pubitem">
   <div class="pubteaser">
     <a href="{{pub.url}}">
@@ -93,11 +97,11 @@ author_profile: true
 {% endif %}
 {% endfor %}
 
-<h2>Workshops</h2>
+## Workshops
 
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
-{% if pub.workshop %}
+{% if pub.pub_type == "workshop" %}
 <div class="pubitem">
   <div class="pubteaser">
     <a href="{{pub.url}}">
@@ -134,11 +138,11 @@ author_profile: true
 {% endif %}
 {% endfor %}
 
-<h2>Poster sessions</h2>
+## Poster sessions
 
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
-{% if pub.poster %}
+{% if pub.pub_type == "poster" %}
 <div class="pubitem">
   <div class="pubteaser">
     <a href="{{pub.url}}">

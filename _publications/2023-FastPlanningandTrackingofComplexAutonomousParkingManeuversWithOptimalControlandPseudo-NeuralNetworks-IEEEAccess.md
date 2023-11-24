@@ -3,11 +3,13 @@ layout: publication
 title: Fast Planning and Tracking of Complex Autonomous Parking Maneuvers With Optimal Control and Pseudo-Neural Networks
 authors: Edoardo Pagot, Mattia Piccinini, Enrico Bertolazzi, Francesco Biral
 publication: IEEE Access
-journal: true
+pub_type: "journal" # "journal", "conference", "workshop" or "poster"
 year: 2023
 doi: https://doi.org/10.1109/ACCESS.2023.3330431
+video: U2mRTzmFj9w #  false or youtube video id
 slides: false
-video: U2mRTzmFj9w
+pdf: false # false no pdf true expected pdf with same name in the download folder
+noimg: false # false or true to avoid image the publication page
 categories:
   - Autonomous Driving
   - Advanced Driving Assistance Systems
