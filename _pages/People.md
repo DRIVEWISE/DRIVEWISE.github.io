@@ -140,8 +140,6 @@ author_profile: true
   {% assign people = filtered_people | sort: "surname" %}
   {% assign people = people | sort: "seniority" %}
 
-  {{ people | size }}
-
   {% for person in people %}
 
   <div class="member">
@@ -159,3 +157,65 @@ author_profile: true
   {% endfor %}
 
   </div>
+
+  <h2>Active members</h2>
+
+  <div class="member-container2">
+
+  {% assign filtered_people = "" | split: "," %}
+  {% for person in site.people_pages %}
+    {% if person.member_type == "researcher" or person.member_type == "student" %}
+      {% assign filtered_people = filtered_people | push: person %}
+    {% endif %}
+  {% endfor %}
+  {% assign people = filtered_people | sort: "surname" %}
+
+  {% for person in people %}
+
+  <div class="member2">
+    <a href="{{person.permalink}}">
+      <div class="image-container2">
+        <img src="../_images/_people/{{person.img}}" alt="{{person.title}}">
+      </div>
+    </a>
+    <br>
+    <a href="{{person.permalink}}"> <span>{{person.title}}</span> </a>
+    <br>
+    <span>{{person.job_title}}</span>
+  </div>
+  
+  {% endfor %}
+
+  </div>
+
+  <h2>Former members</h2>
+
+  <div class="member-container3">
+  
+  {% assign filtered_people = "" | split: "," %}
+  {% for person in site.people_pages %}
+    {% if person.member_type == "ex" or person.member_type == "former" %}
+      {% assign filtered_people = filtered_people | push: person %}
+    {% endif %}
+  {% endfor %}
+  {% assign people = filtered_people | sort: "surname" %}
+
+  {% for person in people %}
+
+  <div class="member3">
+    <a href="{{person.permalink}}">
+      <div class="image-container3">
+        <img src="../_images/_people/{{person.img}}" alt="{{person.title}}">
+      </div>
+    </a>
+    <br>
+    <a href="{{person.permalink}}"> <span>{{person.title}}</span> </a>
+    <br>
+    <span>{{person.job_title}}</span>
+  </div>
+    
+  {% endfor %}
+
+  </div>
+
+<!-- and many others...   -->
