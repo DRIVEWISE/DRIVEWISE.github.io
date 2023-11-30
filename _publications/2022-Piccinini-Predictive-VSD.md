@@ -10,26 +10,26 @@ video: h5eW01xXWaw #  false or youtube video id
 slides: false
 pdf: false # false no pdf true expected pdf with same name in the download folder
 noimg: false # false or true to avoid image the publication page
-categories:
-  - Autonomous Driving
-  - Advanced Driving Assistance Systems
-  - Artificial Intelligence
-  - Optimal Control
-  - PINS
-  - Journal
-tags:
-  - Artificial Agent
-  - ARD
-  - E-rumby
-  - Optimal Control
-  - Mattia Piccinini
-  - Matteo Larcher
-  - Edoardo Pagot
-  - Davide Piscini
-  - Leone Pasquato
-  - Francesco Biral
-  - Vehicle System Dynamics
-  - VSD
+# categories:
+#   - Autonomous Driving
+#   - Advanced Driving Assistance Systems
+#   - Artificial Intelligence
+#   - Optimal Control
+#   - PINS
+#   - Journal
+# tags:
+#   - Artificial Agent
+#   - ARD
+#   - E-rumby
+#   - Optimal Control
+#   - Mattia Piccinini
+#   - Matteo Larcher
+#   - Edoardo Pagot
+#   - Davide Piscini
+#   - Leone Pasquato
+#   - Francesco Biral
+#   - Vehicle System Dynamics
+#   - VSD
 ---
 
 ## Abstract

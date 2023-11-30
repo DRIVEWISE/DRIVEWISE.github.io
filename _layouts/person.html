@@ -1,5 +1,9 @@
 ---
-layout: default
+layout: single
+classes: wide
+author_profile: true
+sidebar:
+  nav: "people"
 ---
 
 <style>
@@ -7,17 +11,12 @@ layout: default
   div.data_collector {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    padding-right: 5%;
-    padding-left: 5%;
   }
 
   div.biodata {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 5%;
-    padding-left: 5%;
   }
   
   .biodata img {
@@ -29,26 +28,20 @@ layout: default
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-right: 5%;
-    padding-left: 5%;
   }
 
   div.publications {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-right: 5%;
   }
 </style>
 
-<!-- add a little vertical space  -->
-<div style="height: 20px;"></div>
 
 <div class="data_collector">
   <div class = "biodata">
     <img src="../_images/_people/{{ page.img }}" alt="{{ page.title }}" width="20%" style="margin-right: 20px;">
     <div>
-      <h2>{{ page.title }}</h2>
       <p><strong>Job Title:</strong> {{ page.job_title }}</p>
       <p><strong>Bio:</strong> {{ page.biodata }} </p>
     </div>

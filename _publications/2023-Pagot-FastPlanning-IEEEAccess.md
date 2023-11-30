@@ -10,24 +10,24 @@ video: U2mRTzmFj9w #  false or youtube video id
 slides: false
 pdf: false # false no pdf true expected pdf with same name in the download folder
 noimg: false # false or true to avoid image the publication page
-categories:
-  - Autonomous Driving
-  - Advanced Driving Assistance Systems
-  - Artificial Intelligence
-  - Optimal Control
-  - PINS
-  - Journal
-tags:
-  - Artificial Agent
-  - Parking
-  - Planning
-  - Optimal Control
-  - A* exploration
-  - Edoardo Pagot
-  - Mattia Piccinini
-  - Enrico Bertolazzi
-  - Francesco Biral
-  - IEEE Access
+# categories:
+#   - Autonomous Driving
+#   - Advanced Driving Assistance Systems
+#   - Artificial Intelligence
+#   - Optimal Control
+#   - PINS
+#   - Journal
+# tags:
+#   - Artificial Agent
+#   - Parking
+#   - Planning
+#   - Optimal Control
+#   - A* exploration
+#   - Edoardo Pagot
+#   - Mattia Piccinini
+#   - Enrico Bertolazzi
+#   - Francesco Biral
+#   - IEEE Access
 ---
 
 ## Abstract <!-- omit in toc -->

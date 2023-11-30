@@ -10,23 +10,23 @@ video: xQ_T96IjGP8 #  false or youtube video id
 slides: false
 pdf: false # false no pdf true expected pdf with same name in the download folder
 noimg: false # false or true to avoid image the publication page
-categories:
-  - Autonomous Driving
-  - Advanced Driving Assistance Systems
-  - Artificial Intelligence
-  - Optimal Control
-  - PINS
-  - Journal
-tags:
-  - Artificial Agent
-  - ARD
-  - Optimal Control
-  - Mattia Piccinini
-  - Sebastiano Taddei
-  - Matteo Larcher
-  - Mattia Piazza
-  - Francesco Biral
-  - IEEE Access
+# categories:
+#   - Autonomous Driving
+#   - Advanced Driving Assistance Systems
+#   - Artificial Intelligence
+#   - Optimal Control
+#   - PINS
+#   - Journal
+# tags:
+#   - Artificial Agent
+#   - ARD
+#   - Optimal Control
+#   - Mattia Piccinini
+#   - Sebastiano Taddei
+#   - Matteo Larcher
+#   - Mattia Piazza
+#   - Francesco Biral
+#   - IEEE Access
 ---
 
 ## Abstract

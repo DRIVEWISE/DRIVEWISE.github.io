@@ -1,12 +1,17 @@
 ---
-layout: default
+layout: single
+classes: wide
+author_profile: true
+sidebar:
+  nav: "publications"
 ---
 
 <style>
   .responsive-iframe-container {
       position: relative;
       overflow: hidden;
-      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
   }
   
   .responsive-iframe-container iframe {
@@ -19,9 +24,9 @@ layout: default
   }
   </style>
 
-<div class="page">
+<!-- <div class="page"> -->
 
-  <h1 class="mt-4 publication-title">{{ page.title }}</h1>
+  <!-- <h1 class="mt-4 publication-title">{{ page.title }}</h1> -->
 
   <div class="publication-authors">
     {{ page.authors }}
@@ -68,6 +73,7 @@ layout: default
     <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
     {% endif %}
   </p>
-</div>
+
+<!-- </div> -->
 
 

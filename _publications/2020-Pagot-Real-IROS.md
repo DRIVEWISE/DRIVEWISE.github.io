@@ -10,23 +10,23 @@ video: HADLEr5eTj0 #  false or youtube video id
 slides: false
 pdf: false # false no pdf true expected pdf with same name in the download folder
 noimg: true # false or true to avoid image the publication page
-categories:
-  - Autonomous Driving
-  - Advanced Driving Assistance Systems
-  - Artificial Intelligence
-  - Optimal Control
-  - PINS
-  - Journal
-tags:
-  - Artificial Agent
-  - ARD
-  - E-rumby
-  - RC Car
-  - Optimal Control
-  - Edoardo Pagot
-  - Mattia Piccinini
-  - Francesco Biral
-  - IROS
+# categories:
+#   - Autonomous Driving
+#   - Advanced Driving Assistance Systems
+#   - Artificial Intelligence
+#   - Optimal Control
+#   - PINS
+#   - Journal
+# tags:
+#   - Artificial Agent
+#   - ARD
+#   - E-rumby
+#   - RC Car
+#   - Optimal Control
+#   - Edoardo Pagot
+#   - Mattia Piccinini
+#   - Francesco Biral
+#   - IROS
 ---
 
 ## Abstract

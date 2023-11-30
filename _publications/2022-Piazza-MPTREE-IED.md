@@ -10,24 +10,24 @@ video: false #  false or youtube video id
 slides: false
 pdf: true # false no pdf true expected pdf with same name in the download folder
 noimg: true # false or true to avoid image the publication page
-categories:
-  - Autonomous Driving
-  - Advanced Driving Assistance Systems
-  - Artificial Intelligence
-  - Optimal Control
-  - Poster
-  - Poster session
-  - Industrial Engineering Day
-tags:
-  - Artificial Agent
-  - Planning
-  - Optimal Control
-  - RRT* exploration
-  - Mattia Piazza
-  - Mattia Piccinini
-  - Francesco Biral
-  - Mauro Da Lio
-  - IED Trento
+# categories:
+#   - Autonomous Driving
+#   - Advanced Driving Assistance Systems
+#   - Artificial Intelligence
+#   - Optimal Control
+#   - Poster
+#   - Poster session
+#   - Industrial Engineering Day
+# tags:
+#   - Artificial Agent
+#   - Planning
+#   - Optimal Control
+#   - RRT* exploration
+#   - Mattia Piazza
+#   - Mattia Piccinini
+#   - Francesco Biral
+#   - Mauro Da Lio
+#   - IED Trento
 ---
 
 The MPTREE is a motion primitive tree exploration algorithm for trajectory planning with dynamic obstacle avoidance. The algorithm is based on the exploration of the vehicle state space by means of a tree. The algorithm is able to generate trajectories in real-time and to avoid dynamic obstacles.
