@@ -58,9 +58,11 @@ sidebar:
 
 {% assign filtered_publications = "" | split: "," %}
 {% for item in site.publications %}
-  {% if item.authors contains page.name and item.authors contains page.surname and item.pub_type != 'poster' %}
-    {% assign filtered_publications = filtered_publications | push: item %}
-  {% endif %}
+  {% for author in item.authors %}
+    {% if author contains page.name and author contains page.surname and item.pub_type != 'poster' %}
+      {% assign filtered_publications = filtered_publications | push: item %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 {% assign publications = filtered_publications | sort: "year" | reverse %}
 
@@ -105,7 +107,11 @@ sidebar:
         </div>
       </a>
       <div class="pubauthors">
-        {{ pub.authors }}
+        {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+        <!-- {{ pub.authors }} -->
       </div>
       <div class="pubinfo">
         {{ pub.publication }}, {{ pub.year}}
@@ -157,7 +163,11 @@ sidebar:
       </div>
     </a>
     <div class="pubauthors">
-      {{ pub.authors }}
+      {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      <!-- {{ pub.authors }} -->
     </div>
     <div class="pubinfo">
       {{ pub.publication }}, {{ pub.year}}
@@ -208,7 +218,11 @@ sidebar:
       </div>
     </a>
     <div class="pubauthors">
-      {{ pub.authors }}
+      {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      <!-- {{ pub.authors }} -->
     </div>
     <div class="pubinfo">
       {{ pub.publication }}, {{ pub.year}}

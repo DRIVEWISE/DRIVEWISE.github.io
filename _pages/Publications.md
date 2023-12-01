@@ -34,7 +34,11 @@ toc_label: "Table of Contents"
       </div>
     </a>
     <div class="pubauthors">
-      {{ pub.authors }}
+      {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      <!-- {{ pub.authors }} -->
     </div>
     <div class="pubinfo">
       {{ pub.publication }}, {{ pub.year}}
@@ -77,7 +81,11 @@ toc_label: "Table of Contents"
       </div>
     </a>
     <div class="pubauthors">
-      {{ pub.authors }}
+      {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      <!-- {{ pub.authors }} -->
     </div>
     <div class="pubinfo">
       {{ pub.publication }}, {{ pub.year}}
@@ -118,7 +126,11 @@ toc_label: "Table of Contents"
       </div>
     </a>
     <div class="pubauthors">
-      {{ pub.authors }}
+      {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      <!-- {{ pub.authors }} -->
     </div>
     <div class="pubinfo">
       {{ pub.publication }}, {{ pub.year}}
@@ -159,7 +171,11 @@ toc_label: "Table of Contents"
       </div>
     </a>
     <div class="pubauthors">
-      {{ pub.authors }}
+      {% for author in pub.authors %}
+        {% assign author_without_space = author | remove: ' ' %}
+        <a href="../People/{{author_without_space}}">{{author}}</a> {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      <!-- {{ pub.authors }} -->
     </div>
     <div class="pubinfo">
       {{ pub.publication }}, {{ pub.year}}
@@ -177,4 +193,3 @@ toc_label: "Table of Contents"
 </div>
 {% endif %}
 {% endfor %}
-

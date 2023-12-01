@@ -1,7 +1,13 @@
 ---
 layout: publication
 title: A Predictive Neural Hierarchical Framework for On-line Time-Optimal Motion Planning and Control of Black-Box Vehicle Models
-authors: Mattia Piccinini, Matteo Larcher, Edoardo Pagot, Davide Piscini, Leone Pasquato, Francesco Biral
+authors: 
+  - Mattia Piccinini
+  - Matteo Larcher
+  - Edoardo Pagot
+  - Davide Piscini
+  - Leone Pasquato
+  - Francesco Biral
 publication: Vehicle System Dynamics
 pub_type: "journal"
 year: 2022

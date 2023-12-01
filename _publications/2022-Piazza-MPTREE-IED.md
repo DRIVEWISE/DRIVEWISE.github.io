@@ -1,7 +1,9 @@
 ---
 layout: publication
 title: "MPTREE: Motion primitive tree exploration for trajectory planning with dynamic obstacle avoidance"
-authors: Mattia Piazza, Mattia Piccinini
+authors: 
+  - Mattia Piazza
+  - Mattia Piccinini
 publication: Industrial Engineering Day, University of Trento
 pub_type: "poster"
 year: 2022
