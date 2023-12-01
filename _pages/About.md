@@ -3,8 +3,6 @@ title: About us
 layout: splash
 permalink: /About/
 author_profile: true
-# header:
-#   image: /_images/Neurobotic-drive-lab-logo.png
 excerpt: "Welcome to the DRIVEWISE research group"
 header:
   overlay_image: /_images/Neurobotic-drive-lab-logo.png
