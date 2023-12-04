@@ -36,6 +36,7 @@ noimg: false # false or true to avoid image the publication page
 #   - Francesco Biral
 #   - Vehicle System Dynamics
 #   - VSD
+author_profile: true
 ---
 
 ## Abstract

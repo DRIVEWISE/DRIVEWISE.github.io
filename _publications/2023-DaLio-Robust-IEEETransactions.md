@@ -30,6 +30,7 @@ logo: xplore_logo_white.svg
 #   - IEEE Xplore
 #   - IEEE Transactions
 #   - Intelligent Transportation Systems
+author_profile: true
 ---
 
 ## Abstract <!-- omit in toc -->

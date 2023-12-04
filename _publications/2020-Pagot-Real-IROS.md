@@ -30,6 +30,7 @@ noimg: true # false or true to avoid image the publication page
 #   - Mattia Piccinini
 #   - Francesco Biral
 #   - IROS
+author_profile: true
 ---
 
 ## Abstract

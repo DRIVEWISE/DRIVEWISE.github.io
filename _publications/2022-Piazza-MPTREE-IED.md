@@ -30,6 +30,7 @@ noimg: true # false or true to avoid image the publication page
 #   - Francesco Biral
 #   - Mauro Da Lio
 #   - IED Trento
+author_profile: true
 ---
 
 The MPTREE is a motion primitive tree exploration algorithm for trajectory planning with dynamic obstacle avoidance. The algorithm is based on the exploration of the vehicle state space by means of a tree. The algorithm is able to generate trajectories in real-time and to avoid dynamic obstacles.

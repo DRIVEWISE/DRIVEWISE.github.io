@@ -34,6 +34,7 @@ noimg: false # false or true to avoid image the publication page
 #   - Enrico Bertolazzi
 #   - Francesco Biral
 #   - IROS
+author_profile: true
 ---
 
 ## Abstract <!-- omit in toc -->

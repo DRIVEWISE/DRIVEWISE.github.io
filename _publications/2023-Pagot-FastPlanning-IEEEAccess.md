@@ -32,6 +32,7 @@ noimg: false # false or true to avoid image the publication page
 #   - Enrico Bertolazzi
 #   - Francesco Biral
 #   - IEEE Access
+author_profile: true
 ---
 
 ## Abstract <!-- omit in toc -->
